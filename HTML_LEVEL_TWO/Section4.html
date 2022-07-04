@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>Tables</h1>
+    <table border = "1">
+        <thead>
+            <th>Number</th>
+            <th>Color</th>
+            <th>Country</th>
+        </thead>
+        <tr>
+            <td>250</td>
+            <td>Red</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>Blue</td>
+            <td>France</td>
+        </tr>
+    </table>
+    <h1>Tables Quiz</h1>
+    <table border = "1">
+        <thead>
+            <th>Country/Territory</th>
+            <th>UN Region</th>
+            <th>Estimate</th>
+            <th>Year</th>
+            <th>Estimate</th>
+            <th>Year</th>
+            <th>Estimate</th>
+            <th>Year</th>
+        </thead>
+        <tr>
+            <td>United States</td>
+            <td>Americas</td>
+            <td>25,346,805</td>
+            <td>2022</td>
+            <td>20,893,746</td>
+            <td>2020</td>
+            <td>20,936,600</td>
+            <td>2020</td>
+        </tr>
+        <tr>
+            <td>China</td>
+            <td>Asia</td>
+            <td>19,911,593</td>
+            <td>2022</td>
+            <td>14,722,801</td>
+            <td>2020</td>
+            <td>14,722,731</td>
+            <td>2020</td>
+        </tr>
+        <tr>
+            <td>Japan</td>
+            <td>Asia</td>
+            <td>4,912,147</td>
+            <td>2022</td>
+            <td>5,057,759</td>
+            <td>2020</td>
+            <td>4,975,415</td>
+            <td>2020</td>
+        </tr>
+
+    </table>
+    <h1>Forms</h1>
+    <form>
+    <h2>Log in</h2>
+    <h3>Please input your email and password</h3>
+    <input type="email" name = "useremail" value = "Email here">
+    <input type="password" name = "password">
+    <input type="Submit" value = "Click me">
+    </form>
+
+    <form>
+        <h2>Pick a color</h2>
+        <input type="color">
+    </form>
+
+    <p>Enter Text and take me to facebook:</p>
+    <form action="https://facebook.com"method = "get">
+        <input type="email" name = "useremail">
+        <input type="submit" value = "submit">
+    </form>
+
+    <form action="">
+        <label for="userinput">Enter Input:</label>
+        <input id = "userinput" type="text" placeholder = "input">
+        <input type="text"placeholder = "required">
+        <input type="submit">
+    </form>
+    <h1>Hotel Feedback Form</h1>
+    <form method = "get">
+        <h3>Are you from inside the US? Or outside the US?</h3>
+        <label for="inusa">inside</label>
+        <input id = "inusa"type="radio"name = "loc"value = "inside">
+        <label for="outusa">outside</label>
+        <input id = "outusa" type="radio"name = "loc"value = outside>
+        <h2>How was your service</h2>
+        <select name="stars" id="">
+        <option value="Great">3</option>
+        <option value="Okay">2</option>
+        <option value="Bad">1</option>
+        </select>
+        <input type="submit"value = "submit">
+        <h2>Any other feedback?</h2>
+        <textarea name="mytext" id="" cols="30" rows="10"></textarea>
+        <input type="submit">
+    </form>
+</body>
+</html>
