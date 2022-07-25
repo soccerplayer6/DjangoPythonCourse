@@ -1,0 +1,49 @@
+.tbl-h1{
+    font-family: 'Cormorant SC', serif;
+    font-size:3em;
+    text-align:center;
+    color:rgba(36, 132, 97, 0.966);
+}
+
+table{
+    width:100vw;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+tr{
+    text-align:center;
+}
+.tblClass
+{
+    display:inline-block;
+    border: 1px solid black;
+    padding: 200px 100px;
+    margin:12.5px;
+}
+
+#one{
+    background-color: #D6D2D2;
+    border-color:#D6D2D2;
+}
+
+#two{
+    background-color:#F1E4F3;
+    border-color: #F1E4F3;
+}
+
+#three{
+    background-color:#F4BBD3;
+    border-color: #F4BBD3;
+}
+
+#four{
+    background-color:#F686BD;
+    border-color:#F686BD;
+}
+
+#five{
+    background-color:#FE5D9F;
+    border-color: #FE5D9F;
+}
